@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h3>Age Finder</h3>
+    <div class="ageDiv">
+        <input type="date" id="dob" placeholder="Add your date of birth">
+        <button onclick="check()">Check</button>
+    </div>
+    <div class="event">
+        <p>You are <b id="years">-</b> years old</p>
+        <p>You are <b id="months">-</b> months old</p>
+        <p>You are <b id="days">-</b> days old</p>
+        <p>You are <b id="hours">-</b> hours old</p>
+        <p>You are <b id="minutes">-</b> minutes old</p>
+        <p>You are <b id="seconds">-</b> seconds old</p>
+    </div>
+    <hr />
+    <h3>Event Countdown</h3>
+    <div class="ageDiv">
+        <input type="date" id="eventDate" placeholder="Enter your event date">
+        <button onclick="count()">Check</button>
+    </div>
+    <div class="event">
+        <p>Your event remaining <b id="remaining">0</b> days</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
